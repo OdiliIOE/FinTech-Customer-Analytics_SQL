@@ -8,7 +8,6 @@
 	# 5. Group results to show the number of customers and average transactions per category.
 # Running the query resulted in a summary showing how active different customer groups are, thereby helping the finance team with segmentation.
 
-
 use adashi_staging;
 
 WITH monthly_transactions AS (
