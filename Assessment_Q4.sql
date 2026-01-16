@@ -1,3 +1,15 @@
+# QUESTION 4: CUSTOMER LIFETIME VALUE (CLV) ESTIMATION
+
+# The following was considered to estimate how valuable each customer is over time, based on how long they’ve had an account and how much they’ve deposited (i.e. total transaction volume):
+
+    # 1. Calculated account tenure in months from date_joined to today.
+    # 2. Sumed total transactions of confirmed_amount from deposits, converted from kobo to naira.
+
+# The CLV Formula below was used in calculation:
+#   CLV = (total_transactions / tenure_months) * 12 * 0.001
+    
+# The CLV formula assumes a 0.1% profit per transaction and annualizes the average monthly transaction value. It results in an estimated CLV sorted from highest to lowest.
+
 use adashi_staging;
 
 SELECT 
