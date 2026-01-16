@@ -1,3 +1,14 @@
+# QUESTION 1: HIGH-VALUE CUSTOMERS WITH MULTIPLE PRODUCTS 
+
+# To find customers who have both a funded savings plan and a funded investment plan:
+	# 1. Use savings_savingsaccount to find confirmed deposits.
+	# 2. Join with plans_plan to check if the plan is a savings (is_regular_savings = 1) or investment (is_a_fund = 1).
+	# 3. Join with users_customuser to get customer info.
+	# 4. Group by user and plan type, then filter for users who have at least one of each (savings and investment).
+	# 5. Sum their deposits and sort by total deposits (in Naira).
+	
+# This approach allows the business to quickly identify customers with both savings and an investment plans.
+
 use adashi_staging;
 
 SELECT 
