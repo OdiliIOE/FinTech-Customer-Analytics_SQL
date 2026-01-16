@@ -1,3 +1,15 @@
+# QUESTION 2: TRANSACTION FREQUENCY ANALYSIS
+
+# The following was done to segment customers based on how often they performed monthly transactions using transaction data:
+
+	# 1. Count each customer's transactions per month.
+	# 2. Calculate their average monthly transactions.
+	# 3. Categorize them as: High Frequency (≥10) Medium Frequency (3–9) Low Frequency (≤2)
+	# 4. Include all users, even those with no transactions.
+	# 5. Group results to show the number of customers and average transactions per category.
+# Running the query resulted in a summary showing how active different customer groups are, thereby helping the finance team with segmentation.
+
+
 use adashi_staging;
 
 WITH monthly_transactions AS (
