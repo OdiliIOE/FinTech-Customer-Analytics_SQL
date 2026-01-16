@@ -1,3 +1,13 @@
+# QUESTION 3: ACCOUNT INACTIVITY ALERT
+
+# The following was done to identify inactive accounts:
+  # 1. Selected all active savings and investment plans.
+  # 2. Found the latest successful inflow (deposit) date for each plan.
+  # 3. Joined the two to match each plan with its last inflow.
+  # 4. Filtered for plans with no inflow in over 1 year (or no inflow at all).
+# The resulting query gives a list of plans that have been inactive for over 1 year (365 days).
+
+
 use adashi_staging;
 
 WITH plan_inflows AS (
