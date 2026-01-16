@@ -1,7 +1,6 @@
 # QUESTION 2: TRANSACTION FREQUENCY ANALYSIS
 
 # The following was done to segment customers based on how often they performed monthly transactions using transaction data:
-
 	# 1. Count each customer's transactions per month.
 	# 2. Calculate their average monthly transactions.
 	# 3. Categorize them as: High Frequency (≥10) Medium Frequency (3–9) Low Frequency (≤2)
