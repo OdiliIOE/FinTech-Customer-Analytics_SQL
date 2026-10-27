@@ -60,7 +60,10 @@ The following was considered to estimate how valuable each customer is over time
 
 ## Author
 
-**Emmanuel Odili** · Data Analytics | Business Intelligence | SQL 
+**Emmanuel Odili** · 
+
+Data Analytics | Business Intelligence | SQL 
+
 [LinkedIn Profile](https://www.linkedin.com/in/odiliemmanuel)
 
 
