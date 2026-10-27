@@ -56,10 +56,3 @@ The following was considered to estimate how valuable each customer is over time
           CLV = (total_transactions / tenure_months) * 12 * 0.001
 
    The CLV formula assumes a 0.1% profit per transaction and annualizes the average monthly transaction value. It results in an estimated CLV sorted from highest to lowest.
-
-
-CHALLENGES
-
-1. Identifying the exact column(s) that was required to address each question.
-2. Writing each queries and subqueries
-3. Time constraint to complete the task.
